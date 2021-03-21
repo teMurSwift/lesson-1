@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+// катет а см
+let a : Double = 5
+// катет b см
+let b : Double = 4
+// площадь прямоугольника s см^2
+let s : Double = a * b 
+print("Площадь \(s) см^2")
+// периметр прямоугольника p см
+let p : Double = (a + b) * 2
+print("Периметр \(p) см")
+// гипотенуза прямоугольника c см
+let square : Double = (a * a) + (b * b)
+let c : Double = (sqrt(square))
+print("Гипотенуза \(c) см")
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 390}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import Foundation
+let a : Double = 5
+let b : Double = 24
+let c : Double = 6
+var x1 : Double = 0
+var x2 : Double = 0
+if a == 0 {
+    print("Вы решаете линейное уравнение")
+} else {
+    
+    let d = (pow((b),2))-4*a*b;
+    print("D =\(d)")
+    if d &gt; 0 {
+        x1 = (-b+sqrt(d))/(2*a)
+        x2 = (-b-sqrt(d))/(2*a)
+        print("X1=\(x1); X2=\(x2)")
+    } else if d == 0 {
+        x1 = (-b+sqrt(d))/(2*a)
+        print("X1 = X2 = \(x1)")
+    } else {
+        print("Уравнение не имеет корней")
+    }
+} 
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 506}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
